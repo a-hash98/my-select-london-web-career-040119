@@ -5,6 +5,7 @@ if block_given?
   while i < collection.length
       if yield collection[i]
         new_collection.push(array[i])
+      end
     i += 1
   end
 else
